@@ -16,13 +16,13 @@ void banner(string text)
 
 //Console.WriteLine(address.ToString());
 
-//line()
+//line();
 
 //addressType.GetProperty("City").SetValue(address, "Plano");
 
 //Console.WriteLine(address);
 
-//line()
+//line();
 
 //var flags = BindingFlags.NonPublic | BindingFlags.Instance;
 //var nonPublic = addressType.GetFields(flags);
@@ -32,7 +32,7 @@ void banner(string text)
 //    Console.WriteLine(member.Name);
 //}
 
-//line()
+//line();
 
 //addressType.GetField("<City>k__BackingField", flags).SetValue(address, "Plano");
 
@@ -66,6 +66,7 @@ void banner(string text)
 
 //banner("Pattern Matching");
 
+//PersonRecord newRec;
 //var data = Factory.MakePersonRecordObjects(1000);
 //foreach (var row in data)
 //{
@@ -82,12 +83,13 @@ void banner(string text)
 //var data = Factory.MakePersonRecordObjects(1000);
 //foreach (var row in data)
 //{
-//    var msg = row switch
-//    {
-//        { firstName: "Harold", lastName: "O'Hara" } => row with { lastName = "Pulcher"},
-//        _ => null
-//    };
-//    if (msg is not null) Console.WriteLine(msg);
+//    if (row is { firstName: "Cori", lastName: "O'Hara" }) Console.WriteLine(row);
+//    //var msg = row switch
+//    //{
+//    //    { firstName: "Harold", lastName: "O'Hara" } => row with { lastName = "Pulcher"},
+//    //    _ => null
+//    //};
+//    //if (msg is not null) Console.WriteLine(msg);
 //}
 
 //banner("Deconstructing Records");

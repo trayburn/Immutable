@@ -3,5 +3,8 @@ using System.Linq;
 
 namespace Immutable
 {
-    public record PersonRecord(string firstName, string middleName, string lastName);
+    public record PersonRecord(
+        string firstName, 
+        string middleName, 
+        string lastName);
 }
